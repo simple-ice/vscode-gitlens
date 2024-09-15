@@ -266,7 +266,7 @@ export class GlDraftDetails extends GlTreeBase {
 
 		return html`
 			<webview-pane collapsable expanded>
-				<span slot="title">Files changed </span>
+				<span slot="title">文件变更 </span>
 				<!-- <span slot="subtitle" data-region="stats">\${this.renderCommitStats()}</span> -->
 				<action-nav slot="actions">${this.renderLayoutAction(layout)}</action-nav>
 
