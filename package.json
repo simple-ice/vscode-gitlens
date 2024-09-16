@@ -6434,13 +6434,13 @@
 			},
 			{
 				"command": "gitlens.showCommitInView",
-				"title": "Inspect Commit Details",
+				"title": "检查提交详细信息",
 				"category": "GitLens",
 				"icon": "$(eye)"
 			},
 			{
 				"command": "gitlens.showLineCommitInView",
-				"title": "Inspect Line Commit Details",
+				"title": "检查线路提交详细信息",
 				"category": "GitLens",
 				"icon": "$(eye)"
 			},
@@ -17676,7 +17676,7 @@
 				},
 				{
 					"id": "gitlens.views.lineHistory",
-					"name": "Line History",
+					"name": "Line 历史",
 					"when": "!gitlens:disabled && !gitlens:hasVirtualFolders",
 					"contextualTitle": "GitLens",
 					"icon": "$(gitlens-history-view)",
@@ -17704,7 +17704,7 @@
 				},
 				{
 					"id": "gitlens.views.searchAndCompare",
-					"name": "Search & Compare",
+					"name": "搜索和比较",
 					"when": "!gitlens:disabled",
 					"contextualTitle": "GitLens",
 					"icon": "$(gitlens-search-view)",
