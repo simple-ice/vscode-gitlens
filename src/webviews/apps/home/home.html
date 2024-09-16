@@ -119,7 +119,7 @@
 					</p>
 					<p class="centered">
 						<gl-button class="is-basic" href="command:workbench.view.scm"
-							>Manage in Source Control</gl-button
+							>代码管理</gl-button
 						>
 					</p>
 				</div>
@@ -130,7 +130,7 @@
 					<p>Unable to open repositories in Restricted Mode.</p>
 					<p class="centered">
 						<gl-button class="is-basic" href="command:workbench.trust.manage"
-							>Manage Workspace Trust</gl-button
+							>管理 Workspace Trust</gl-button
 						>
 					</p>
 				</div>
@@ -138,10 +138,10 @@
 		</header>
 		<main class="home__main scrollable" id="main">
 			<p data-requires="norepo">
-				<code-icon icon="question"></code-icon> Features which need a repository are currently unavailable
+				<code-icon icon="question"></code-icon> 需要存储库的功能当前不可用
 			</p>
 			<div id="section-walkthrough" data-section-expand="walkthrough" class="alert">
-				<h1 class="alert__title">Get Started with GitLens</h1>
+				<h1 class="alert__title">开始使用 GitLens</h1>
 				<div class="alert__description">
 					<p>Explore all of the powerful features in GitLens</p>
 					<p class="button-container button-container--trio">
@@ -150,11 +150,11 @@
 							full
 							href="command:gitlens.showWelcomePage"
 							aria-label="Open Welcome"
-							>Start Here (Welcome)</gl-button
+							>从这里开始 （欢迎）</gl-button
 						>
 						<span class="button-group button-group--single">
 							<gl-button appearance="secondary" full href="command:gitlens.getStarted?%22home%22"
-								>Walkthrough</gl-button
+								>演示</gl-button
 							>
 							<gl-button
 								appearance="secondary"
@@ -162,7 +162,7 @@
 								href="https://youtu.be/oJdlGtsbc3U?utm_source=inapp&utm_medium=home_banner&utm_id=GitLens+tutorial"
 								aria-label="Watch the GitLens Tutorial video"
 								tooltip="Watch the GitLens Tutorial video"
-								><code-icon icon="vm-running" slot="prefix"></code-icon>Tutorial</gl-button
+								><code-icon icon="vm-running" slot="prefix"></code-icon>教程</gl-button
 							>
 						</span>
 					</p>
@@ -174,17 +174,17 @@
 					</gl-tooltip>
 					<gl-tooltip hoist>
 						<code-icon icon="chevron-right" aria-label="Expand walkthrough section"></code-icon>
-						<span slot="content">Expand</span>
+						<span slot="content">扩大</span>
 					</gl-tooltip>
 				</a>
 			</div>
 			<nav class="nav-list">
-				<h2 class="nav-list__title t-eyebrow sticky">Setup</h2>
+				<h2 class="nav-list__title t-eyebrow sticky">设置</h2>
 				<div class="nav-list__item">
 					<a class="nav-list__link" href="command:gitlens.showSettingsPage" aria-label="Open GitLens Settings"
 						><code-icon class="nav-list__icon" icon="gear"></code-icon
 						><gl-tooltip hoist class="nav-list__label" content="Open GitLens Settings">
-							<span>Open GitLens Settings</span></gl-tooltip
+							<span>打开GitLens设置</span></gl-tooltip
 						>
 					</a>
 				</div>
@@ -195,7 +195,7 @@
 						aria-label="Connect an Integration on GitKraken.dev"
 						><code-icon class="nav-list__icon" icon="gl-unplug"></code-icon
 						><gl-tooltip hoist class="nav-list__label" content="Connect an Integration on GitKraken.dev"
-							><span>Connect an Integration</span></gl-tooltip
+							><span>连接集成</span></gl-tooltip
 						>
 					</a>
 				</div>
@@ -206,7 +206,7 @@
 						aria-label="Manage Integrations on GitKraken.dev"
 						><code-icon class="nav-list__icon" icon="settings"></code-icon
 						><gl-tooltip hoist class="nav-list__label" content="Manage Integrations on GitKraken.dev"
-							><span>Manage Integrations</span></gl-tooltip
+							><span>管理集成</span></gl-tooltip
 						>
 					</a>
 				</div>
@@ -217,13 +217,13 @@
 						aria-label="Open Autolinks Settings"
 						><code-icon class="nav-list__icon" icon="link"></code-icon
 						><gl-tooltip hoist class="nav-list__label" content="Open Autolinks Settings"
-							><span>Configure Autolinks</span></gl-tooltip
+							><span>配置自动链接</span></gl-tooltip
 						>
 					</a>
 				</div>
 			</nav>
 			<nav class="nav-list">
-				<h2 class="nav-list__title t-eyebrow sticky">Popular</h2>
+				<h2 class="nav-list__title t-eyebrow sticky">流行</h2>
 				<div class="nav-list__item">
 					<a
 						class="nav-list__link"
@@ -338,7 +338,7 @@
 						data-requires="repo"
 						><code-icon class="nav-list__icon" icon="gl-stashes-view"></code-icon
 						><gl-tooltip hoist class="nav-list__label" content="Show Stashes view">
-							<span>Stashes</span></gl-tooltip
+							<span>储藏</span></gl-tooltip
 						>
 					</a>
 				</div>
@@ -350,7 +350,7 @@
 						data-requires="repo"
 						><code-icon class="nav-list__icon" icon="gl-search-view"></code-icon
 						><gl-tooltip hoist class="nav-list__label" content="Show Search &amp; Compare view">
-							<span>Search &amp; Compare</span></gl-tooltip
+							<span>搜索 &amp; 比较</span></gl-tooltip
 						>
 					</a>
 				</div>
@@ -414,7 +414,7 @@
 						data-requires="repo"
 						><code-icon class="nav-list__icon" icon="source-control"></code-icon
 						><gl-tooltip hoist class="nav-list__label" content="Show Source Control Side Bar"
-							><span>Source Control</span></gl-tooltip
+							><span>源代码管理</span></gl-tooltip
 						>
 					</a>
 				</div>
@@ -440,13 +440,13 @@
 						data-requires="repo"
 						><code-icon class="nav-list__icon" icon="symbol-color"></code-icon
 						><gl-tooltip hoist class="nav-list__label" content="Open Git Command Palette"
-							><span>Git Command Palette</span></gl-tooltip
+							><span>Git Command 调色板</span></gl-tooltip
 						>
 					</a>
 				</div>
 			</nav>
 			<nav class="nav-list">
-				<h2 class="nav-list__title t-eyebrow sticky">Companion Tools</h2>
+				<h2 class="nav-list__title t-eyebrow sticky">配套工具</h2>
 				<div class="nav-list__item">
 					<a
 						class="nav-list__link"
@@ -454,7 +454,7 @@
 						aria-label="Try the GitKraken Browser Extension"
 						><code-icon class="nav-list__icon" icon="extensions"></code-icon
 						><gl-tooltip hoist class="nav-list__label" content="Try the GitKraken Browser Extension"
-							><span>GitKraken Browser Extension</span></gl-tooltip
+							><span>GitKraken 浏览器扩展</span></gl-tooltip
 						>
 					</a>
 				</div>

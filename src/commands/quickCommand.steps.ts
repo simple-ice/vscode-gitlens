@@ -971,14 +971,14 @@ export function* pickBranchOrTagStepMultiRepo<
 	const showTagsButton = new ShowTagsToggleQuickInputButton(context.showTags);
 
 	const createNewBranchItem: QuickPickItem & { item: string } = {
-		label: 'Create New Branch...',
+		label: '创建新的分支...',
 		iconPath: new ThemeIcon('plus'),
 		alwaysShow: true,
 		item: '',
 	};
 
 	const choosePullRequestItem: QuickPickItemOfT<CrossCommandReference> = {
-		label: 'Choose a Pull Request...',
+		label: '选择拉取请求...',
 		iconPath: new ThemeIcon('git-pull-request'),
 		alwaysShow: true,
 		item: createCrossCommandReference<Partial<FocusCommandArgs>>(Commands.ShowLaunchpad, {

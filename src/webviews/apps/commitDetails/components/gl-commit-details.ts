@@ -432,9 +432,7 @@ export class GlCommitDetails extends GlDetailsBase {
 								aria-busy="${this.explainBusy ? 'true' : nothing}"
 								@click=${this.onExplainChanges}
 								@keydown=${this.onExplainChanges}
-								><code-icon icon="loading" modifier="spin" slot="prefix"></code-icon>Explain
-								Changes</gl-button
-							>
+								><code-icon icon="loading" modifier="spin" slot="prefix"></code-icon>解释更改</gl-button>
 						</span>
 					</p>
 					${when(

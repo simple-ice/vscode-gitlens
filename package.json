@@ -5968,7 +5968,7 @@
 			},
 			{
 				"command": "gitlens.showSettingsPage!commit-graph",
-				"title": "Open Commit Graph Settings",
+				"title": "打开提交图表设置",
 				"category": "GitLens",
 				"icon": "$(gear)"
 			},
@@ -8812,13 +8812,13 @@
 			},
 			{
 				"command": "gitlens.graph.switchToEditorLayout",
-				"title": "Prefer Commit Graph in Editor",
+				"title": "首选编辑器中的提交图",
 				"category": "GitLens",
 				"enablement": "config.gitlens.graph.layout != editor"
 			},
 			{
 				"command": "gitlens.graph.switchToPanelLayout",
-				"title": "Prefer Commit Graph in Panel",
+				"title": "首选面板中的提交图",
 				"category": "GitLens",
 				"enablement": "config.gitlens.graph.layout != panel"
 			},
