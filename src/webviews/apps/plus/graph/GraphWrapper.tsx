@@ -992,7 +992,7 @@ export function GraphWrapper({
 	const renderFetchAction = () => {
 		let action: 'fetch' | 'pull' | 'push' = 'fetch';
 		let icon = 'repo-fetch';
-		let label = 'Fetch';
+		let label = 'Fetch_1';
 		let isBehind = false;
 		let isAhead = false;
 
@@ -1113,7 +1113,7 @@ export function GraphWrapper({
 						className="action-button"
 					>
 						<span className="glicon glicon-repo-fetch action-button__icon"></span>
-						Fetch {fetchedText && <span className="action-button__small">({fetchedText})</span>}
+						Fetch_2 {fetchedText && <span className="action-button__small">({fetchedText})</span>}
 					</a>
 					<span slot="content" style={{ whiteSpace: 'break-spaces' }}>
 						Fetch from {remote}
@@ -1300,7 +1300,7 @@ export function GraphWrapper({
 								<SlSelect value={branchesVisibility} onSlChange={handleBranchesVisibility} hoist>
 									<CodeIcon icon="chevron-down" slot="expand-icon"></CodeIcon>
 									<SlOption value="all" disabled={repo?.isVirtual}>
-										All Branches
+										全部分支
 									</SlOption>
 									<SlOption value="smart" disabled={repo?.isVirtual}>
 										Smart Branches
@@ -1321,7 +1321,7 @@ export function GraphWrapper({
 											<CodeIcon icon="info" slot="suffix"></CodeIcon>
 										)}
 									</SlOption>
-									<SlOption value="current">Current Branch</SlOption>
+									<SlOption value="current">当前分支</SlOption>
 								</SlSelect>
 							</GlTooltip>
 							<GlTooltip placement="top">

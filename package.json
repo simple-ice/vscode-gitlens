@@ -6602,7 +6602,7 @@
 			},
 			{
 				"command": "gitlens.copyDeepLinkToCommit",
-				"title": "Copy Link to Commit",
+				"title": "Copy Link to Commit_2",
 				"category": "GitLens",
 				"icon": "$(copy)"
 			},
@@ -7051,7 +7051,7 @@
 			},
 			{
 				"command": "gitlens.views.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens",
 				"icon": "$(copy)"
 			},
@@ -7695,7 +7695,7 @@
 			},
 			{
 				"command": "gitlens.views.branches.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -7784,7 +7784,7 @@
 			},
 			{
 				"command": "gitlens.views.commits.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -7865,7 +7865,7 @@
 			},
 			{
 				"command": "gitlens.views.contributors.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -7934,7 +7934,7 @@
 			},
 			{
 				"command": "gitlens.views.drafts.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -7991,7 +7991,7 @@
 			},
 			{
 				"command": "gitlens.views.fileHistory.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8098,7 +8098,7 @@
 			},
 			{
 				"command": "gitlens.views.launchpad.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8149,7 +8149,7 @@
 			},
 			{
 				"command": "gitlens.views.lineHistory.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8188,7 +8188,7 @@
 			},
 			{
 				"command": "gitlens.views.pullRequest.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8227,7 +8227,7 @@
 			},
 			{
 				"command": "gitlens.views.remotes.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8288,7 +8288,7 @@
 			},
 			{
 				"command": "gitlens.views.repositories.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8460,7 +8460,7 @@
 			},
 			{
 				"command": "gitlens.views.searchAndCompare.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8547,7 +8547,7 @@
 			},
 			{
 				"command": "gitlens.views.stashes.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8576,7 +8576,7 @@
 			},
 			{
 				"command": "gitlens.views.tags.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8726,7 +8726,7 @@
 			},
 			{
 				"command": "gitlens.views.workspaces.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8737,7 +8737,7 @@
 			},
 			{
 				"command": "gitlens.views.worktrees.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens"
 			},
 			{
@@ -8864,7 +8864,7 @@
 			},
 			{
 				"command": "gitlens.graph.copyDeepLinkToCommit",
-				"title": "Copy Link to Commit",
+				"title": "Copy Link to Commit_1",
 				"category": "GitLens",
 				"icon": "$(copy)"
 			},
@@ -9236,7 +9236,7 @@
 			},
 			{
 				"command": "gitlens.graph.copy",
-				"title": "Copy",
+				"title": "复制",
 				"category": "GitLens",
 				"icon": "$(copy)"
 			},
