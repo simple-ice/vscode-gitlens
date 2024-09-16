@@ -17013,7 +17013,7 @@
 			},
 			{
 				"id": "gitlens/commit/file/history",
-				"label": "File History"
+				"label": "文件历史"
 			},
 			{
 				"id": "gitlens/editor/annotations",
@@ -17034,7 +17034,7 @@
 			},
 			{
 				"id": "gitlens/editor/history",
-				"label": "File History"
+				"label": "文件历史"
 			},
 			{
 				"id": "gitlens/editor/openOn",
@@ -17058,7 +17058,7 @@
 			},
 			{
 				"id": "gitlens/explorer/history",
-				"label": "File History"
+				"label": "文件历史"
 			},
 			{
 				"id": "gitlens/explorer/openOn",
@@ -17087,7 +17087,7 @@
 			},
 			{
 				"id": "gitlens/scm/resourceState/history",
-				"label": "File History"
+				"label": "文件历史"
 			},
 			{
 				"id": "gitlens/scm/resourceState/openOn",
@@ -17685,7 +17685,7 @@
 				},
 				{
 					"id": "gitlens.views.fileHistory",
-					"name": "File History",
+					"name": "文件历史",
 					"when": "!gitlens:disabled",
 					"contextualTitle": "GitLens",
 					"icon": "$(gitlens-history-view)",
