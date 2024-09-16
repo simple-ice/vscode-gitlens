@@ -6446,7 +6446,7 @@
 			},
 			{
 				"command": "gitlens.showInDetailsView",
-				"title": "Inspect Details",
+				"title": "检查细节",
 				"category": "GitLens",
 				"icon": "$(eye)"
 			},
@@ -9001,7 +9001,7 @@
 			},
 			{
 				"command": "gitlens.graph.showInDetailsView",
-				"title": "Inspect Details",
+				"title": "检查细节",
 				"category": "GitLens",
 				"icon": "$(eye)"
 			},
