@@ -5690,7 +5690,7 @@
 			},
 			{
 				"command": "gitlens.copyPatchToClipboard",
-				"title": "Copy Changes (Patch)",
+				"title": "复制更改Changes",
 				"category": "GitLens"
 			},
 			{
@@ -5705,22 +5705,22 @@
 			},
 			{
 				"command": "gitlens.createPatch",
-				"title": "Create Patch...",
+				"title": "创建补丁...",
 				"category": "GitLens"
 			},
 			{
 				"command": "gitlens.graph.createPatch",
-				"title": "Create Patch...",
+				"title": "创建补丁...",
 				"category": "GitLens"
 			},
 			{
 				"command": "gitlens.createCloudPatch",
-				"title": "Create Patch...",
+				"title": "创建补丁...",
 				"category": "GitLens"
 			},
 			{
 				"command": "gitlens.graph.createCloudPatch",
-				"title": "Create Patch...",
+				"title": "创建补丁...",
 				"category": "GitLens"
 			},
 			{
@@ -6557,13 +6557,13 @@
 			},
 			{
 				"command": "gitlens.copyMessageToClipboard",
-				"title": "Copy Message",
+				"title": "复制 Message",
 				"category": "GitLens",
 				"icon": "$(copy)"
 			},
 			{
 				"command": "gitlens.copyShaToClipboard",
-				"title": "Copy SHA",
+				"title": "复制 SHA",
 				"category": "GitLens",
 				"icon": "$(copy)"
 			},
@@ -6686,13 +6686,13 @@
 			},
 			{
 				"command": "gitlens.openCommitOnRemote",
-				"title": "Open Commit on Remote",
+				"title": "打开远程提交",
 				"category": "GitLens",
 				"icon": "$(globe)"
 			},
 			{
 				"command": "gitlens.views.openCommitOnRemote",
-				"title": "Open Commit on Remote",
+				"title": "打开远程提交",
 				"category": "GitLens",
 				"icon": "$(globe)"
 			},
@@ -7217,7 +7217,7 @@
 			},
 			{
 				"command": "gitlens.views.openChanges",
-				"title": "Open Changes",
+				"title": "打开变更",
 				"category": "GitLens",
 				"icon": "$(compare-changes)"
 			},
@@ -7310,7 +7310,7 @@
 			},
 			{
 				"command": "gitlens.views.compareWithHead",
-				"title": "Compare to/from HEAD",
+				"title": "与 HEAD 比较",
 				"category": "GitLens",
 				"icon": "$(compare-changes)"
 			},
@@ -7347,7 +7347,7 @@
 			},
 			{
 				"command": "gitlens.views.compareWithWorking",
-				"title": "Compare Working Tree to Here",
+				"title": "将工作树与此处进行比较",
 				"category": "GitLens",
 				"icon": "$(gitlens-compare-ref-working)"
 			},
@@ -7469,14 +7469,14 @@
 			},
 			{
 				"command": "gitlens.views.createBranch",
-				"title": "Create Branch...",
+				"title": "创建分支...",
 				"category": "GitLens",
 				"icon": "$(add)",
 				"enablement": "!operationInProgress"
 			},
 			{
 				"command": "gitlens.views.title.createBranch",
-				"title": "Create Branch...",
+				"title": "创建分支...",
 				"category": "GitLens",
 				"icon": "$(add)",
 				"enablement": "!operationInProgress"
@@ -7503,14 +7503,14 @@
 			},
 			{
 				"command": "gitlens.views.createTag",
-				"title": "Create Tag...",
+				"title": "创建 Tag...",
 				"category": "GitLens",
 				"icon": "$(add)",
 				"enablement": "!operationInProgress"
 			},
 			{
 				"command": "gitlens.views.title.createTag",
-				"title": "Create Tag...",
+				"title": "创建 Tag...",
 				"category": "GitLens",
 				"icon": "$(add)",
 				"enablement": "!operationInProgress"
@@ -8888,7 +8888,7 @@
 			},
 			{
 				"command": "gitlens.graph.createBranch",
-				"title": "Create Branch...",
+				"title": "创建分支...",
 				"category": "GitLens",
 				"icon": "$(add)",
 				"enablement": "!operationInProgress"
@@ -8977,13 +8977,13 @@
 			},
 			{
 				"command": "gitlens.graph.copyMessage",
-				"title": "Copy Message",
+				"title": "复制 Message",
 				"category": "GitLens",
 				"icon": "$(copy)"
 			},
 			{
 				"command": "gitlens.graph.copySha",
-				"title": "Copy SHA",
+				"title": "复制 SHA",
 				"category": "GitLens",
 				"icon": "$(copy)"
 			},
@@ -9012,7 +9012,7 @@
 			},
 			{
 				"command": "gitlens.graph.openCommitOnRemote",
-				"title": "Open Commit on Remote",
+				"title": "打开远程提交",
 				"category": "GitLens",
 				"icon": "$(globe)"
 			},
@@ -9096,7 +9096,7 @@
 			},
 			{
 				"command": "gitlens.graph.createTag",
-				"title": "Create Tag...",
+				"title": "创建 Tag...",
 				"category": "GitLens",
 				"icon": "$(add)",
 				"enablement": "!operationInProgress"
@@ -9170,7 +9170,7 @@
 			},
 			{
 				"command": "gitlens.graph.compareWithHead",
-				"title": "Compare to/from HEAD",
+				"title": "与 HEAD 比较",
 				"category": "GitLens",
 				"icon": "$(compare-changes)"
 			},
@@ -9187,7 +9187,7 @@
 			},
 			{
 				"command": "gitlens.graph.compareWithWorking",
-				"title": "Compare Working Tree to Here",
+				"title": "将工作树与此处进行比较",
 				"category": "GitLens",
 				"icon": "$(gitlens-compare-ref-working)"
 			},
@@ -16997,11 +16997,11 @@
 			},
 			{
 				"id": "gitlens/commit/changes",
-				"label": "Open Changes"
+				"label": "打开变更"
 			},
 			{
 				"id": "gitlens/graph/commit/changes",
-				"label": "Open Changes"
+				"label": "打开变更"
 			},
 			{
 				"id": "gitlens/commit/file/commit",
@@ -17022,7 +17022,7 @@
 			},
 			{
 				"id": "gitlens/editor/context/changes",
-				"label": "Open Changes"
+				"label": "打开变更"
 			},
 			{
 				"id": "gitlens/editor/context/openOn",
@@ -17030,7 +17030,7 @@
 			},
 			{
 				"id": "gitlens/editor/changes",
-				"label": "Open Changes"
+				"label": "打开变更"
 			},
 			{
 				"id": "gitlens/editor/history",
@@ -17042,7 +17042,7 @@
 			},
 			{
 				"id": "gitlens/editor/lineNumber/context/changes",
-				"label": "Open Changes"
+				"label": "打开变更"
 			},
 			{
 				"id": "gitlens/editor/lineNumber/context/openOn",
@@ -17050,11 +17050,11 @@
 			},
 			{
 				"id": "gitlens/editor/lineNumber/context/share",
-				"label": "Share"
+				"label": "分享"
 			},
 			{
 				"id": "gitlens/explorer/changes",
-				"label": "Open Changes"
+				"label": "打开变更"
 			},
 			{
 				"id": "gitlens/explorer/history",
@@ -17075,7 +17075,7 @@
 			},
 			{
 				"id": "gitlens/scm/resourceGroup/changes",
-				"label": "Open Changes"
+				"label": "打开变更"
 			},
 			{
 				"id": "gitlens/scm/resourceFolder/changes",
@@ -17095,7 +17095,7 @@
 			},
 			{
 				"id": "gitlens/share",
-				"label": "Share"
+				"label": "分享"
 			},
 			{
 				"id": "gitlens/view/repositories/sections",
