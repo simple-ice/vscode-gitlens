@@ -598,14 +598,14 @@ export class GlCommitDetailsApp extends LitElement {
 		try {
 			const result = await this._hostIpc.sendRequest(ExplainRequest, undefined);
 			if (result.error) {
-				this.explain = { error: { message: result.error.message ?? 'Error retrieving content' } };
+				this.explain = { error: { message: result.error.message ?? '检索内容时出错' } };
 			} else if (result.summary) {
 				this.explain = { summary: result.summary };
 			} else {
 				this.explain = undefined;
 			}
 		} catch (ex) {
-			this.explain = { error: { message: 'Error retrieving content' } };
+			this.explain = { error: { message: '检索内容时出错' } };
 		}
 	}
 
@@ -614,7 +614,7 @@ export class GlCommitDetailsApp extends LitElement {
 			const result = await this._hostIpc.sendRequest(GenerateRequest, undefined);
 
 			if (result.error) {
-				this.generate = { error: { message: result.error.message ?? 'Error retrieving content' } };
+				this.generate = { error: { message: result.error.message ?? '检索内容时出错' } };
 			} else if (result.title || result.description) {
 				this.generate = {
 					title: result.title,
@@ -633,7 +633,7 @@ export class GlCommitDetailsApp extends LitElement {
 				this.generate = undefined;
 			}
 		} catch (ex) {
-			this.generate = { error: { message: 'Error retrieving content' } };
+			this.generate = { error: { message: '检索内容时出错' } };
 		}
 		this.requestUpdate('generate');
 	}

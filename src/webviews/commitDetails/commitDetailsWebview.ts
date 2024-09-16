@@ -1086,7 +1086,7 @@ export class CommitDetailsWebviewProvider
 				{ source: 'inspect', type: isStash(this._context.commit) ? 'stash' : 'commit' },
 				{ progress: { location: { viewId: this.host.id } } },
 			);
-			if (summary == null) throw new Error('Error retrieving content');
+			if (summary == null) throw new Error('检索内容时出错');
 
 			params = { summary: summary };
 		} catch (ex) {
@@ -1122,7 +1122,7 @@ export class CommitDetailsWebviewProvider
 				{ source: 'inspect', type: 'suggested_pr_change' },
 				{ progress: { location: { viewId: this.host.id } } },
 			);
-			if (summary == null) throw new Error('Error retrieving content');
+			if (summary == null) throw new Error('检索内容时出错');
 
 			params = extractDraftMessage(summary);
 		} catch (ex) {

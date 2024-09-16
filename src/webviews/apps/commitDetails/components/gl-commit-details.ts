@@ -422,7 +422,7 @@ export class GlCommitDetails extends GlDetailsBase {
 				</action-nav>
 
 				<div class="section">
-					<p>Let AI assist in understanding the changes made with this commit.</p>
+					<p>让 AI 协助了解此提交所做的更改。</p>
 					<p class="button-container">
 						<span class="button-group button-group--single">
 							<gl-button
@@ -448,7 +448,7 @@ export class GlCommitDetails extends GlDetailsBase {
 									this.explain?.error,
 									() =>
 										html`<p class="ai-content__summary scrollable">
-											${this.explain!.error!.message ?? 'Error retrieving content'}
+											${this.explain!.error!.message ?? '检索内容时出错'}
 										</p>`,
 								)}
 								${when(

@@ -44,7 +44,7 @@ export class CommitFilesQuickPickItem extends CommandQuickPickItem {
 						: `$(files) ${commit.formatStats({
 								expand: true,
 								separator: ', ',
-								empty: 'No files changed',
+								empty: '无文件变更',
 						  })}`
 				}${options?.hint != null ? `${pad(GlyphChars.Dash, 4, 2, GlyphChars.Space)}${options.hint}` : ''}`,
 				alwaysShow: true,

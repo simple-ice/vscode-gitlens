@@ -137,7 +137,7 @@ export class StatusFilesNode extends ViewNode<'status-files', ViewsWithWorkingTr
 			}
 		}
 
-		const label = files === -1 ? '?? files changed' : `${pluralize('file', files)} changed`;
+		const label = files === -1 ? '?? 文件变更' : `${pluralize('file', files)} changed`;
 		const item = new TreeItem(label, TreeItemCollapsibleState.Collapsed);
 		item.description = 'working tree';
 		item.id = this.id;
