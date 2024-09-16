@@ -67,7 +67,7 @@ jobs:
             - name: Package extension
               run: yarn run package --pre-release
             - name: Publish extension
-              run: yarn vsce publish --yarn --pre-release --packagePath ./${{ env.PACKAGE_NAME }}.vsix -p ${{ secrets.GITLENS_VSCODE_MARKETPLACE_PAT }}
+            - run: yarn vsce publish --yarn --pre-release --packagePath ./${{ env.PACKAGE_NAME }}.vsix -p ${{ secrets.GITLENS_VSCODE_MARKETPLACE_PAT }}
             - name: Publish artifact
               uses: actions/upload-artifact@v4
               with:
