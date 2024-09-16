@@ -7251,7 +7251,7 @@
 			},
 			{
 				"command": "gitlens.views.openChangedFileDiffs",
-				"title": "Open All Changes",
+				"title": "打开所有变更",
 				"icon": "$(diff-multiple)",
 				"category": "GitLens"
 			},
@@ -7316,13 +7316,13 @@
 			},
 			{
 				"command": "gitlens.views.compareBranchWithHead",
-				"title": "Compare with HEAD",
+				"title": "与 HEAD 比较",
 				"category": "GitLens",
 				"icon": "$(compare-changes)"
 			},
 			{
 				"command": "gitlens.views.compareWithUpstream",
-				"title": "Compare with Upstream",
+				"title": "与上游比较",
 				"category": "GitLens"
 			},
 			{
@@ -7337,7 +7337,7 @@
 			},
 			{
 				"command": "gitlens.views.compareFileWithSelected",
-				"title": "Compare with Selected",
+				"title": "与所选内容比较",
 				"category": "GitLens"
 			},
 			{
@@ -7423,7 +7423,7 @@
 			},
 			{
 				"command": "gitlens.graph.openInWorktree",
-				"title": "Open in Worktree",
+				"title": "在 Worktree 中打开",
 				"category": "GitLens",
 				"icon": "$(window)"
 			},
@@ -7517,7 +7517,7 @@
 			},
 			{
 				"command": "gitlens.views.deleteTag",
-				"title": "Delete Tag...",
+				"title": "删除标签...",
 				"category": "GitLens",
 				"icon": "$(trash)",
 				"enablement": "!operationInProgress"
@@ -7531,7 +7531,7 @@
 			},
 			{
 				"command": "gitlens.views.mergeBranchInto",
-				"title": "Merge Branch into Current Branch...",
+				"title": "将分支合并到 当前 分支...",
 				"category": "GitLens",
 				"enablement": "!operationInProgress"
 			},
