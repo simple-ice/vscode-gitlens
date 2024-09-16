@@ -804,7 +804,7 @@
 			},
 			{
 				"id": "file-changes",
-				"title": "File Changes",
+				"title": "文件变更",
 				"order": 16,
 				"properties": {
 					"gitlens.changes.toggleMode": {
@@ -7371,7 +7371,7 @@
 			},
 			{
 				"command": "gitlens.views.createWorktree",
-				"title": "Create Worktree...",
+				"title": "创建 Worktree...",
 				"category": "GitLens",
 				"icon": "$(add)",
 				"enablement": "!operationInProgress"
@@ -7384,21 +7384,21 @@
 			},
 			{
 				"command": "gitlens.views.title.createWorktree",
-				"title": "Create Worktree...",
+				"title": "创建 Worktree...",
 				"category": "GitLens",
 				"icon": "$(add)",
 				"enablement": "!operationInProgress"
 			},
 			{
 				"command": "gitlens.views.deleteWorktree",
-				"title": "Delete Worktree...",
+				"title": "删除 Worktree...",
 				"category": "GitLens",
 				"icon": "$(trash)",
 				"enablement": "!operationInProgress"
 			},
 			{
 				"command": "gitlens.views.deleteWorktree.multi",
-				"title": "Delete Worktrees...",
+				"title": "删除 Worktrees...",
 				"category": "GitLens",
 				"icon": "$(trash)",
 				"enablement": "!operationInProgress"
@@ -7411,7 +7411,7 @@
 			},
 			{
 				"command": "gitlens.views.openWorktree",
-				"title": "Open Worktree",
+				"title": "打开Worktree",
 				"category": "GitLens",
 				"icon": "$(window)"
 			},
@@ -7429,30 +7429,30 @@
 			},
 			{
 				"command": "gitlens.views.openWorktreeInNewWindow.multi",
-				"title": "Open Worktrees in New Window",
+				"title": "在新窗口打开 Worktrees",
 				"category": "GitLens",
 				"icon": "$(empty-window)"
 			},
 			{
 				"command": "gitlens.graph.openWorktree",
-				"title": "Open Worktree",
+				"title": "打开 Worktree",
 				"category": "GitLens",
 				"icon": "$(window)"
 			},
 			{
 				"command": "gitlens.graph.openWorktreeInNewWindow",
-				"title": "Open Worktree in New Window",
+				"title": "在新窗口中打开 Worktree",
 				"category": "GitLens",
 				"icon": "$(empty-window)"
 			},
 			{
 				"command": "gitlens.views.revealRepositoryInExplorer",
-				"title": "Reveal in File Explorer",
+				"title": "在文件资源管理器中显示",
 				"category": "GitLens"
 			},
 			{
 				"command": "gitlens.views.revealWorktreeInExplorer",
-				"title": "Reveal in File Explorer",
+				"title": "在文件资源管理器中显示",
 				"category": "GitLens"
 			},
 			{
@@ -7483,21 +7483,21 @@
 			},
 			{
 				"command": "gitlens.views.deleteBranch",
-				"title": "Delete Branch...",
+				"title": "删除分支...",
 				"category": "GitLens",
 				"icon": "$(trash)",
 				"enablement": "!operationInProgress"
 			},
 			{
 				"command": "gitlens.views.deleteBranch.multi",
-				"title": "Delete Branches...",
+				"title": "删除分支...",
 				"category": "GitLens",
 				"icon": "$(trash)",
 				"enablement": "!operationInProgress"
 			},
 			{
 				"command": "gitlens.views.renameBranch",
-				"title": "Rename Branch...",
+				"title": "重命名分支...",
 				"category": "GitLens",
 				"enablement": "!operationInProgress"
 			},
@@ -7524,7 +7524,7 @@
 			},
 			{
 				"command": "gitlens.views.deleteTag.multi",
-				"title": "Delete Tags...",
+				"title": "删除标签...",
 				"category": "GitLens",
 				"icon": "$(trash)",
 				"enablement": "!operationInProgress"
@@ -7537,7 +7537,7 @@
 			},
 			{
 				"command": "gitlens.views.pushToCommit",
-				"title": "Push to Commit...",
+				"title": "推送到提交...",
 				"category": "GitLens",
 				"icon": "$(gitlens-repo-push)",
 				"enablement": "!operationInProgress"
@@ -7550,13 +7550,13 @@
 			},
 			{
 				"command": "gitlens.views.rebaseOntoCommit",
-				"title": "Rebase Current Branch onto Commit...",
+				"title": "将当前分支变基到提交...",
 				"category": "GitLens",
 				"enablement": "!operationInProgress"
 			},
 			{
 				"command": "gitlens.views.rebaseOntoUpstream",
-				"title": "Rebase Current Branch onto Upstream...",
+				"title": "将当前分支变基到上游...",
 				"category": "GitLens",
 				"enablement": "!operationInProgress"
 			},
@@ -7586,20 +7586,20 @@
 			},
 			{
 				"command": "gitlens.views.revert",
-				"title": "Revert Commit...",
+				"title": "回滚此提交（Revert）",
 				"category": "GitLens",
 				"enablement": "!operationInProgress"
 			},
 			{
 				"command": "gitlens.views.undoCommit",
-				"title": "Undo Commit",
+				"title": "撤消提交",
 				"category": "GitLens",
 				"icon": "$(discard)",
 				"enablement": "!operationInProgress"
 			},
 			{
 				"command": "gitlens.views.setBranchComparisonToWorking",
-				"title": "Compare with Working Tree",
+				"title": "与 Working Tree 比较",
 				"category": "GitLens",
 				"icon": "$(compare-changes)"
 			},
@@ -9048,7 +9048,7 @@
 			},
 			{
 				"command": "gitlens.graph.revert",
-				"title": "Revert Commit...",
+				"title": "回滚此提交（Revert）",
 				"category": "GitLens",
 				"enablement": "!operationInProgress"
 			},

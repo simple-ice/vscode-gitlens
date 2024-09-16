@@ -6,7 +6,7 @@ export function registerAccountWebviewView(controller: WebviewsController) {
 		{
 			id: 'gitlens.views.account',
 			fileName: 'account.html',
-			title: 'GitKraken Account',
+			title: 'GitKraken 账户',
 			contextKeyPrefix: `gitlens:webviewView:account`,
 			trackingFeature: 'accountView',
 			plusFeature: false,

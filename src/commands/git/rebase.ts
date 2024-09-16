@@ -261,7 +261,7 @@ export class RebaseGitCommand extends QuickCommand<State> {
 				createFlagsQuickPickItem<Flags>(state.flags, ['--interactive'], {
 					label: `Interactive ${this.title}`,
 					description: '--interactive',
-					detail: `Will interactively update ${getReferenceLabel(context.destination, {
+					detail: `将交互式更新 ${getReferenceLabel(context.destination, {
 						label: false,
 					})} by applying ${pluralize('commit', count)} on top of ${getReferenceLabel(state.reference, {
 						label: false,
