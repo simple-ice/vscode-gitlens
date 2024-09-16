@@ -17611,7 +17611,7 @@
 				{
 					"type": "webview",
 					"id": "gitlens.views.home",
-					"name": "Home",
+					"name": "主页",
 					"contextualTitle": "GitLens",
 					"icon": "$(gitlens-gitlens)",
 					"initialSize": 6,
@@ -17628,7 +17628,7 @@
 				},
 				{
 					"id": "gitlens.views.drafts",
-					"name": "Cloud Patches",
+					"name": "云补丁",
 					"when": "!gitlens:untrusted && !gitlens:hasVirtualFolders && gitlens:gk:organization:drafts:enabled && config.gitlens.cloudPatches.enabled",
 					"contextualTitle": "GitLens",
 					"icon": "$(gitlens-cloud-patch)",
@@ -17637,7 +17637,7 @@
 				},
 				{
 					"id": "gitlens.views.workspaces",
-					"name": "GK Workspaces",
+					"name": "GK 工作区",
 					"when": "!gitlens:untrusted && !gitlens:hasVirtualFolders",
 					"contextualTitle": "GitLens",
 					"icon": "$(gitlens-workspaces-view)",
@@ -17647,7 +17647,7 @@
 				{
 					"type": "webview",
 					"id": "gitlens.views.account",
-					"name": "GitKraken Account",
+					"name": "GitKraken 账户",
 					"contextualTitle": "GitLens",
 					"icon": "$(gitlens-gitlens)",
 					"initialSize": 1,
@@ -17695,7 +17695,7 @@
 				{
 					"type": "webview",
 					"id": "gitlens.views.timeline",
-					"name": "Visual File History",
+					"name": "可视文件历史",
 					"when": "!gitlens:disabled && gitlens:plus:enabled",
 					"contextualTitle": "GitLens",
 					"icon": "$(graph-scatter)",
