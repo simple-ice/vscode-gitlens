@@ -1240,7 +1240,7 @@ export class WorktreeGitCommand extends QuickCommand<State> {
 				break;
 			case 'working-tree':
 				confirmations.push({
-					label: 'Copy Working Changes to Worktree',
+					label: '将工作更改复制到工作树',
 					detail: `Will copy the working changes${
 						count > 0 ? ` (${pluralize('file', count)})` : ''
 					} to worktree '${state.worktree.name}'`,

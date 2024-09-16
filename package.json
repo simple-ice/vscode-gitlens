@@ -5695,12 +5695,12 @@
 			},
 			{
 				"command": "gitlens.copyWorkingChangesToWorktree",
-				"title": "Copy Working Changes to Worktree...",
+				"title": "将工作更改复制到工作树...",
 				"category": "GitLens"
 			},
 			{
 				"command": "gitlens.graph.copyWorkingChangesToWorktree",
-				"title": "Copy Working Changes to Worktree...",
+				"title": "将工作更改复制到工作树...",
 				"category": "GitLens"
 			},
 			{
@@ -6897,7 +6897,7 @@
 			},
 			{
 				"command": "gitlens.stashSave",
-				"title": "Stash All Changes...",
+				"title": "存储所有更改...",
 				"category": "GitLens",
 				"icon": "$(gitlens-stash-save)",
 				"enablement": "!operationInProgress"
@@ -7246,7 +7246,7 @@
 			},
 			{
 				"command": "gitlens.views.openChangedFiles",
-				"title": "Open Files",
+				"title": "打开文件",
 				"category": "GitLens"
 			},
 			{
@@ -9007,7 +9007,7 @@
 			},
 			{
 				"command": "gitlens.graph.openSCM",
-				"title": "Open Source Control",
+				"title": "开源控制",
 				"category": "GitLens"
 			},
 			{
@@ -9068,7 +9068,7 @@
 			},
 			{
 				"command": "gitlens.graph.stash.save",
-				"title": "Stash All Changes...",
+				"title": "存储所有更改...",
 				"category": "GitLens",
 				"icon": "$(gitlens-stash-save)",
 				"enablement": "!operationInProgress"
@@ -9198,24 +9198,24 @@
 			},
 			{
 				"command": "gitlens.graph.openChangedFileDiffs",
-				"title": "Open All Changes",
+				"title": "打开所有更改",
 				"icon": "$(diff-multiple)",
 				"category": "GitLens"
 			},
 			{
 				"command": "gitlens.graph.openChangedFileDiffsWithWorking",
-				"title": "Open All Changes with Working Tree",
+				"title": "使用工作树打开所有更改",
 				"icon": "$(diff-multiple)",
 				"category": "GitLens"
 			},
 			{
 				"command": "gitlens.graph.openChangedFileDiffsIndividually",
-				"title": "Open All Changes Individually",
+				"title": "单独打开所有更改",
 				"category": "GitLens"
 			},
 			{
 				"command": "gitlens.graph.openChangedFileDiffsWithWorkingIndividually",
-				"title": "Open All Changes with Working Tree Individually",
+				"title": "使用工作树单独打开所有更改",
 				"category": "GitLens"
 			},
 			{
@@ -17009,7 +17009,7 @@
 			},
 			{
 				"id": "gitlens/commit/file/changes",
-				"label": "Open Changes with"
+				"label": "打开更改"
 			},
 			{
 				"id": "gitlens/commit/file/history",
@@ -17079,11 +17079,11 @@
 			},
 			{
 				"id": "gitlens/scm/resourceFolder/changes",
-				"label": "Open Changes with"
+				"label": "打开更改"
 			},
 			{
 				"id": "gitlens/scm/resourceState/changes",
-				"label": "Open Changes with"
+				"label": "打开更改"
 			},
 			{
 				"id": "gitlens/scm/resourceState/history",
